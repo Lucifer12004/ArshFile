@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+ body{
+   background-color:violet;
+ }
+ </style>
+<form action="count" method="Get"> {% csrf_token %}
+    <textarea cols="40" rows="10" name="fulltext"></textarea><br/>
+    <input type="submit" value="count">
+
+
+</form>
+</body>
+</html>

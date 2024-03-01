@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>There are {{count}} word in your text</h1>
+    <h1>Full text:</h1>
+     {{fulltext}}
+    {% for word , countvalue in WordDictionary %}
+    <br />
+    {{word}}
+    <br />
+    {{countvalue}}
+    {% endfor %}
+</body>
+</html>
